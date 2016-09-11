@@ -4,8 +4,12 @@ import {Component} from "@angular/core";
   moduleId: module.id,
   selector: 'first-app',
   templateUrl: 'first-app.component.html',
-  styleUrls: ['first-app.component.css']
+  styles: [`
+  h1 {
+    color: red;
+  }
+  `]
 })
+
 export class AppComponent {
-  title: string = 'App works!';
 }
